@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'DAW2_Forms'`, () => {
+  it(`should have as title 'Angular13CRUD'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('DAW2_Forms');
+    expect(app.title).toEqual('Angular13CRUD');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('DAW2_Forms app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('Angular13CRUD app is running!');
   });
 });
