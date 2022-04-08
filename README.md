@@ -4,8 +4,8 @@ Haz clic en [este enlace](https://j03vincent.github.io/DAW2_ProductForm/), para 
 1. git clone o descargar directamente el fichero
 2. npm install
 3. ir al directorio src/app/services/api.service.ts y cambiar el enlace por http://localhost:3000/productList/
-4. json-server --watch db.json
-5. npm serve
+4. json-server --watch db.json (si no encuentra el comando, npm install -g json-server)
+5. npm start
 
 # DAW2Forms
 
